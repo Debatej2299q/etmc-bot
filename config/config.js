@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('../etmc-whatsapp-bot.json');
+const serviceAccount = require('../serviceAccountKey.json');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const {Wit, log} = require('node-wit');
 require('dotenv').config();
